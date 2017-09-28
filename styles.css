@@ -1,0 +1,101 @@
+/*
+---------------------------------------------------------------------------------------------------------
+RESPONSIVE BAR con GRADIENTE
+---------------------------------------------------------------------------------------------------------
+@import "https://fonts.googleapis.com/css?family=Lato:300";
+*/
+
+
+.gradientes {
+  position: relative;
+  height: 5vh;
+  border-bottom: solid 5px white;
+}
+/*
+.gradientes:before, .gradientes:after {
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 0;
+  right: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.gradientes:before {
+  content: "Good news, everyone!";
+  font-size: 46px;
+  line-height: 60px;
+  margin-top: -40px;
+}
+.gradientes:after {
+  content: "I've taught the toaster to feel love!";
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 20px;
+}
+.gradientes--intro:before {
+  content: "Gradient backgrounds";
+}
+.gradientes--intro:after {
+  content: "A curated collection";
+}
+
+.gradientes--intro {
+  background: linear-gradient(135deg, #4567b2 20%, #8ab9ff 80%);
+}
+*/
+
+.gradientes--barra {
+  background: linear-gradient(135deg, #ff6500 20%, #ff7500 80%);
+}
+
+
+body {margin: 0;}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+/*
+---------------------------------------------------------------------------------------------------------
+Texto estilo
+---------------------------------------------------------------------------------------------------------
+*/
+
+
+
+
+
+
+
+
+/*
+---------------------------------------------------------------------------------------------------------
+Otros
+---------------------------------------------------------------------------------------------------------
+*/
+
