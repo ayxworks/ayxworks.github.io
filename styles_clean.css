@@ -20,14 +20,6 @@ RESPONSIVE BAR
 /*Barra de iconos*/
 body {margin:0;}
 
-.topTopnav{
-	margin-left: 15px;
-	margin-right: 15px;
-	padding: 15px;
-	margin-top: 0px;
-	margin-bottom: 80px;
-}
-
 .logo {
 	position: relative;
 	float:right;
@@ -35,6 +27,7 @@ body {margin:0;}
 }
 /* Nav bar*/
 .topnav {
+  margin-top:30px;
   overflow: hidden;
   background: linear-gradient(to bottom, #fc5500 20%,#fc730a 100%);
 }
