@@ -89,27 +89,17 @@ Texto estilo
     padding: 30px;
 }
 
-/*
-.head {
-  background: #cd679a;
-  padding: 40px 0;
-  text-align: center;
-}
-.head h1 {
+
+.titulo{
   display: inline-block;
   font-family: 'Slabo 27px', serif;
-  font-size: 64px;
-  color: #fff;
-  margin: 0;
+  font-size: 150px;
+  color: #000;
+  margin: 50;
   position: relative;
   top: -40px;
 }
-.head h2 {
-  font-family: 'Ubuntu', sans-serif;
-  color: #fff;
-  margin: 0 0 20px 0;
-}
-*/
+
 
 .footnote{
     padding: 15px;
@@ -131,19 +121,19 @@ Otros
 Social media buttons
 ---------------------------------------------------------------------------------------------------------
 */
-.ex1, .ex3 {
+.ex1{
   margin-left: 15px;
-  padding-top: 60px;
+  padding-top: 0px;
   text-align: center;
   background: #fff;
 }
-.ex1 i, .ex3 i {
-  margin: 0 20px;
+.ex1 img/*, .ex1 i*/{
+  margin: 15px;
   color: #333;
   cursor: pointer;
 }
 
-.ex1 i:hover {
+.ex1 img:hover/*, .ex1 i:hover*/ {
   color: #fc730a;
   -moz-transition: all 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
   -o-transition: all 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
@@ -158,6 +148,10 @@ Social media buttons
 a, a:visited, a:hover, a:active {
     text-decoration: none;
     color: inherit;
+}
+
+.youkuIcon{
+	padding-top:10px;
 }
 
 .footnote{
