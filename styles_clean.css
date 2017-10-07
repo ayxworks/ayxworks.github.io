@@ -1,6 +1,71 @@
 
 body {margin: 0;}
 
+.tituloLogo{
+	background-color: #ffa751;
+	margin: 0px;
+	padding: 50px;
+	height:400px;
+	width: 100%;  
+}
+
+.centrado{
+    margin: auto;
+    width: 25%;
+	height:100%;
+}
+
+.logo{
+	vertical-align: middle;
+	height:100%;
+	float: middle;
+
+}
+@media screen and (max-width: 1000px) {
+	.centrado{
+		margin: auto;
+		width: 40%;
+		height:100%;
+	}
+}
+@media screen and (max-width: 777px) {
+	.centrado{
+		margin: auto;
+		width: 50%;
+		height:100%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.centrado{
+		margin: auto;
+		width: 60%;
+		height:100%;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.centrado{
+		margin: auto;
+		width: 75%;
+		height:100%;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.centrado{
+		margin: auto;
+		width: 90%;
+		height:100%;
+	}
+}
+@media screen and (max-width: 420px) {
+	.centrado{
+		margin: auto;
+		width: 100%;
+		height:100%;
+	}
+}
 /*
 ---------------------------------------------------------------------------------------------------------
 RESPONSIVE BAR
@@ -20,11 +85,7 @@ RESPONSIVE BAR
 /*Barra de iconos*/
 body {margin:0;}
 
-.logo {
-	position: relative;
-	float:right;
 
-}
 /* Nav bar*/
 .topnav {
   margin-top:30px;
@@ -54,7 +115,7 @@ body {margin:0;}
   display: none;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 704px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -62,7 +123,7 @@ body {margin:0;}
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 704px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -88,23 +149,27 @@ Texto estilo
 .cuerpo{
     padding: 30px;
 }
-
-
-.titulo{
-  display: inline-block;
-  font-family: 'Slabo 27px', serif;
-  font-size: 150px;
-  color: #000;
-  margin: 50;
-  position: relative;
-  top: -40px;
+/*
+p{
+    font-family: "Times New Roman", Times, serif;
+	font-size: 15px;
+}
+*/
+.enlace{
+    padding-left: 15px;
+	color: #ed6213;
+	font-family: "Times New Roman", Times, serif;
 }
 
-
-.footnote{
-    padding: 15px;
+.enlace:hover{
+    padding-left: 15px;
+    text-decoration: underline;
 }
 
+.descripcion{
+    padding-left: 30px;
+	padding-right: 30px;
+}
 
 /*
 ---------------------------------------------------------------------------------------------------------
