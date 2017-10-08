@@ -4,14 +4,14 @@ body {margin: 0;}
 .tituloLogo{
 	background-color: #ffa751;
 	margin: 0px;
-	padding: 50px;
+	padding: 20px;
 	height:400px;
 	width: 100%;  
 }
 
 .centrado{
     margin: auto;
-    width: 25%;
+    width: 20%;
 	height:100%;
 }
 
@@ -179,6 +179,10 @@ Otros
 */
 
 
+.albumCollection{
+	width: 100%;
+	max-height: 170px;
+}
 
 
 
