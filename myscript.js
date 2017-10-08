@@ -7,8 +7,7 @@ function myFunction() {
         x.className = "topnav";
     }
 }
-
-//Fixed nav bar on the top
+//Fixed nav bar on the top (en INDEX)
 $(document).ready(function() {
   
   $(window).scroll(function () {
@@ -17,9 +16,25 @@ $(document).ready(function() {
       //nav bar to stick.  
       //console.log($(window).scrollTop())
     if ($(window).scrollTop() > 410) {
-      $('#nav_bar').addClass('navbar-fixed');
+      $('#nav_bar_index').addClass('navbar-fixed');
     }
     if ($(window).scrollTop() < 411) {
+      $('#nav_bar_index').removeClass('navbar-fixed');
+    }
+  });
+});
+//Fixed nav bar on the top
+$(document).ready(function() {
+  
+  $(window).scroll(function () {
+      //if you hard code, then use console
+      //.log to determine when you want the 
+      //nav bar to stick.  
+      //console.log($(window).scrollTop())
+    if ($(window).scrollTop() > 0) {
+      $('#nav_bar').addClass('navbar-fixed');
+    }
+    if ($(window).scrollTop() < 1) {
       $('#nav_bar').removeClass('navbar-fixed');
     }
   });

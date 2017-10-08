@@ -155,15 +155,16 @@ p{
 	font-size: 15px;
 }
 */
-.enlace{
-    padding-left: 15px;
+.enlace, .enlace:visited{
+    padding-left: 18px;
 	color: #ed6213;
 	font-family: "Times New Roman", Times, serif;
 }
 
 .enlace:hover{
-    padding-left: 15px;
+    padding-left: 18px;
     text-decoration: underline;
+	color: #ed6213;
 }
 
 .descripcion{
