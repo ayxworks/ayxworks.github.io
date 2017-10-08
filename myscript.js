@@ -15,11 +15,28 @@ $(document).ready(function() {
       //.log to determine when you want the 
       //nav bar to stick.  
       //console.log($(window).scrollTop())
-    if ($(window).scrollTop() > 410) {
+    if ($(window).scrollTop() > 1161) {
       $('#nav_bar_index').addClass('navbar-fixed');
     }
-    if ($(window).scrollTop() < 411) {
+    if ($(window).scrollTop() < 1162) {
       $('#nav_bar_index').removeClass('navbar-fixed');
+    }
+  });
+});
+
+//Fixed nav bar on the top (en about us)
+$(document).ready(function() {
+  
+  $(window).scroll(function () {
+      //if you hard code, then use console
+      //.log to determine when you want the 
+      //nav bar to stick.  
+      //console.log($(window).scrollTop())
+    if ($(window).scrollTop() > 410) {
+      $('#nav_bar_aboutus').addClass('navbar-fixed');
+    }
+    if ($(window).scrollTop() < 411) {
+      $('#nav_bar_aboutus').removeClass('navbar-fixed');
     }
   });
 });
