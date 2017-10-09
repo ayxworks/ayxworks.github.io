@@ -6,9 +6,9 @@ body {margin: 0;}
 	margin: 0px;
 	padding-top: 250px;
 	padding-bottom: 250px;
-	padding-left: 250px;
-	padding-right: 250px;
-	height:1100px;
+	padding-left: 0px;
+	padding-right: 0px;
+	height:880px;
 	width: 100%;  
 }
 
@@ -31,16 +31,9 @@ body {margin: 0;}
 	}
 	
 	.tituloLogo{
-		padding-left: 150px;
 		width: 100%;  
 	}
 	
-	.logo{
-
-	width:100%;
-	float: middle;
-
-}
 }
 @media screen and (max-width: 500px) {
 	.centrado{
@@ -49,7 +42,7 @@ body {margin: 0;}
 	}
 	
 	.tituloLogo{
-		padding-left: 10px;
+		padding-left: 0px;
 		width: 100%;  
 	}
 }
