@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Damas inglesas</title>
+
+<script src="./juego.js"></script>
+</head>
+<body>
+<h1>Damas inglesas</h1>
+<h3 style="color: green;">Estás Online</h3>
+<p id="movimientos">Movimientos: <span id="count">0</span></p>
+<script>
+	// Register the service worker
+	if ('serviceWorker' in navigator) {
+		navigator.serviceWorker.register('./serviceWorker.js').then(function(registration) {
+		// Registration was successful
+		console.log('ServiceWorker registration successful with scope: ', registration.scope);
+	}).catch(function(err) {
+		// registration failed :(
+			console.log('ServiceWorker registration failed: ', err);
+		});
+	}
+</script>
+<canvas id="lienzo" width="600" height="300"></canvas>
+<script>
+  iniciarJuego(document.getElementById('lienzo'), document.getElementById('count'));
+</script>
+</body>
+</html>
+
